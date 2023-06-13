@@ -1,14 +1,13 @@
-import "./App.css";
+//import "./App.css";
+
 
 function App() {
 
   return(
     <>
-      <h1 className="beautiful" >Hello World</h1>
-
-      <h1 style={{color: "red"}}>Hello</h1>
+      <h1>Hello World</h1>
     </>
-    
+
   );
 
 }
