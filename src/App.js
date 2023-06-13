@@ -8,9 +8,9 @@ function App() {
     <>
       <h1>Good AfterNoon</h1>
       <h1>{str}</h1>
-    <h1>{str.toUpperCase()}</h1>
-    <h1>{str.toLocaleLowerCase()}</h1>
-    <h1>{str.substring(1,7)}</h1>
+      <h1>{str.toUpperCase()}</h1>
+      <h1>{str.toLocaleLowerCase()}</h1>
+      <h1>{str.substring(1,7)}</h1>
    
     </>
     
