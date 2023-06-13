@@ -1,17 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
 
-  let style = { color : "Red", background: "pink"};
-
   return(
     <>
-    <h1 style = {style}>
-      hello
-    </h1>
+      <h1 className="beautiful" >Hello World</h1>
+
+      <h1 style={{color: "red"}}>Hello</h1>
     </>
-  )
+    
+  );
 
 }
 
