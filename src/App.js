@@ -4,17 +4,15 @@ import "./App.css";
 function App() {
   let str = `Hello Universe`;
   let pi = 3.141159;
-  let active = true;
+  let user = {id:1, name: "Umair"};
 
   return(
     <>
       <h1>{str}</h1>
-      <h1>PI = {pi} !!</h1>
-
-      <h1>{active ? "Good Morning" : "Good Morning"}</h1>
-
-      {active && <h1>Good Evening</h1>}
-      {active ? <h1>Good Morning</h1> : <h1>Good Night</h1>}
+      <h1>PI: {pi}</h1>
+      <h1>
+        ID: {user.id}   Name: {user.name};
+      </h1>
     </>
   );
 }
