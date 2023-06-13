@@ -2,18 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  let l1 = <h1>Good Morning</h1>;
-
-  let l2 = (
+  return (
     <>
-      <h1>
-        Good Night
-      </h1>
+      <h1>Hello</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+        obcaecati, voluptas nulla iusto mollitia expedita.
+      </p>
     </>
   );
-
-  return false ? l2 : l1;
-
 }
 
 export default App;
